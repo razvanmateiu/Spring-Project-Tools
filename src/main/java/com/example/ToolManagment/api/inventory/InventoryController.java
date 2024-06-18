@@ -59,6 +59,10 @@ public class InventoryController {
         inventoryRepository.delete(entryToDelete);
         return ResponseEntity.ok("The inventory entry has been deleted");
     }
+//    @GetMapping("/history/{idSite}")
+//    public List<Inventory> getToolsBySite(@RequestParam Integer isSite, @RequestParam boolean status){
+//            return inventoryRepository.findBy()
+    }
 
 
-}
+
